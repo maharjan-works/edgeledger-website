@@ -44,6 +44,7 @@ img{
   position:fixed;
   top:0px;
   padding:0 30px;
+  transition:0.5s;
 }
 .navbar ul{
   display: flex;
@@ -58,6 +59,9 @@ img{
 }
 .navbar .logo{
   font-weight: 400;
+}
+.navbar.top{
+  background: transparent;
 }
 
 /* Header  - hero class */
