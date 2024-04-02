@@ -100,7 +100,15 @@ img{
 }
 
 .hero *{
-  z-index: 1;
+  z-index: 10;
+}
+
+.hero.blog{
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+  height: 50vh; 
+  /* display: flex; */
+
+  
 }
 
 /* Icons */
@@ -121,6 +129,11 @@ img{
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
+}
+.meta  img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 
 /* Cases */
@@ -160,6 +173,25 @@ img{
   margin-top: 20px;
 }
 
+
+.post{
+  padding: 50px 30px;
+}
+.post h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.post .meta{
+  margin-bottom: 30px;
+}
+.post img{
+  width:300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+}
 
 /* Foooter */
 .footer{
